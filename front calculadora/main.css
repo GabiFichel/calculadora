@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}     
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --primaria: #76a2bb;
+    --secundaria: #44545e;
+    --escuro: #08151d;
+    --preto: #000000;
+    --claro: #e6f2f9;
+    --tranparente: rgba(29, 50, 68, 0.8);
+}
+body {
+    background-color: var(--secundaria);
+    color: var(--claro);
+}
+.form {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    }
+h1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 50vh;
+}
+input[type="number"],
+    num1 {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+button {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+select {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+}
